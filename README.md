@@ -43,7 +43,7 @@
 ### 🐍 Minha cobrinha de commits:
 
 <p align="center">
-<img src="https://github.com/SEU-USUARIO/SEU-USUARIO/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+<img src="https://github.com/biazz-coder/biazz-coder/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
 ---
@@ -51,13 +51,13 @@
 ### 📬 Vamos conversar!
 
 <p align="center">
-<a href="https://www.linkedin.com/in/SEU-LINKEDIN/">
+<a href="https://www.linkedin.com/in/(https://www.linkedin.com/in/ana-beatriz-m-a98400369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_ap)/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:SEU-EMAIL">
+<a href="mailto:anabsantos777@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 </p>
 <p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=SEU-USUARIO&label=Profile%20views&color=blueviolet&style=flat-square" alt="views" /> 
+  <img src="https://komarev.com/ghpvc/?username=biazz-coder&label=Profile%20views&color=blueviolet&style=flat-square" alt="views" /> 
 </p>
