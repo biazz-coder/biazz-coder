@@ -1,0 +1,33 @@
+# Nome do workflow (aparece lá na aba "Ações")
+name: Cobrinha dos Commits 🐍
+
+# Quando esse fluxo vai rodar
+on:
+  schedule: # roda automaticamente todo dia às 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # permite rodar manualmente pelo botão "Executar workflow"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # servidor Linux onde vai rodar o job
+
+    steps:
+      # Primeiro passo: baixar o repositório
+      - name: Baixar repositório
+        uses: actions/checkout@v3
+
+      # Segundo passo: gerar a animação da cobrinha
+      - name: Gerar animação da cobrinha
+        uses: Platane/snk@v3
+        with:
+          github_user_name: biazz-codificador # <-- teu usuário do GitHub
+          outputs: dist/github-contribution-grid-snake.svg # onde vai salvar o SVG
+
+      # Terceiro passo: commitar o arquivo gerado no repositório
+      - name: Subir resultado
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Cobrinha atualizada 🐍"
+          add: "dist/github-contribution-grid-snake.svg"
